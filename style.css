@@ -9,6 +9,10 @@ ul {
   font-size: 1rem;
 }
 
+footer {
+  text-align: center;
+}
+
 .grid {
   display: flex;
   flex-direction: column;
