@@ -13,6 +13,11 @@ footer {
   text-align: center;
 }
 
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
 .grid {
   display: flex;
   flex-direction: column;
@@ -97,25 +102,7 @@ li.done {
     box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
 }
 
-.fancy {
-  color:white;
-  font-size: 10vw;
-  text-shadow: 4px 4px 0px #000;
-  mix-blend-mode: screen;
-  animation: fadeIn 1.5s linear forwards;
-  text-align: center;
-}
 
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
 
 @media only screen 
         and (device-width: 428px) 
