@@ -105,16 +105,14 @@ li.done {
 
 
 @media only screen 
-        and (device-width: 428px) 
-        and (device-height: 926px) 
-        and (-webkit-device-pixel-ratio: 3) { 
+        and (max-device-width:480px) { 
 
     html {
       zoom: .8;
     }
 
     body, ul {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
 
     .add-list {
@@ -126,12 +124,12 @@ li.done {
     .add-list button {
       margin-top:1rem;
       padding: 1rem;
-      font-size: 1.5rem;
+      font-size: 2rem;
 
     }
 
     .input-style {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   }
 
